@@ -1,6 +1,6 @@
-title: Researcher
+title: Matthew Deakin
 url: "https://ankitsultana.com"
-baseurl: "/researcher"
+baseurl: "/researcher/"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -8,17 +8,19 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "/researcher/"
+footer_text: "Return to homepage"
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
+ - name: "Home"
    link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+ - name: "Research"
+   link: "research"
+#  - name: "Group"
+  #  link: "group"
+ - name: "About"
+   link: "about"
